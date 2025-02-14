@@ -1,5 +1,6 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import header from './header';
 
 function App() {
   const name="vansh";
@@ -11,7 +12,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/*<img src={logo} className="App-logo" alt="logo" />*/}
+        <header/>
         <p>
           Hello World!
           Hello {name}
