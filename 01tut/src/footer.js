@@ -1,4 +1,5 @@
 import React from 'react'
+import './index.css';
 const today= new Date();
 const Footer = () => {
     return (

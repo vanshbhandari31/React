@@ -1,7 +1,15 @@
+import './index.css';
 const Header = () => {
+    // const headerStyle = () => ({
+    //     backgroundColor: "brown",
+    //     color: "#fff"
+    // });
+
+
     return(
-        <header>
-            <h1>Grocery List</h1>
+
+        <header className="appHeader">
+            <h1>Airtel List</h1>
         </header>
     );
 };
