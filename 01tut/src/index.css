@@ -28,15 +28,18 @@ body {
   border: 1px solid mediumblue;
   margin: auto;
 }
-
+.appHeader{
+  text-align: center;
+}
 header {
   width: 100%;
   padding: 0 0.25em;
-  background-color: mediumblue;
+  background-color: red;
   color: aliceblue;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 main {
@@ -52,8 +55,13 @@ main {
 footer {
   width: 100%;
   padding: 0.25em;
-  background-color: mediumblue;
+  background-color: red;
   color: aliceblue;
   display: grid;
   place-content: center;
+}
+
+button{
+  padding: 0.25em;
+  margin: 0.25em;
 }
