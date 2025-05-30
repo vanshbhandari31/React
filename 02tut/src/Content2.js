@@ -1,6 +1,7 @@
 import './index.css';
 import {useState}  from "react";
 import {FaTrashAlt} from "react-icons/fa";
+
 const Content=()=>{
     const [items,setItems]=useState([
         {
@@ -43,4 +44,5 @@ const Content=()=>{
         </main>
     )
 }
+
 export default Content;

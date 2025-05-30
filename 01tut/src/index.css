@@ -28,9 +28,11 @@ body {
   border: 1px solid mediumblue;
   margin: auto;
 }
+
 .appHeader{
   text-align: center;
 }
+
 header {
   width: 100%;
   padding: 0 0.25em;

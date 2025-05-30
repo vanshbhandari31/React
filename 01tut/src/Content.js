@@ -12,24 +12,31 @@ const Content=()=>{
         const int=Math.floor(Math.random()*4)
         return setName(names[int]);
     }
+
     const handleChange2=()=>{
         setCount(count+1);
 
         console.log(count);
     }
+
     const handleChange3=( name )=>{
         console.log(`${name} was clicked`);
     }
+
     const handleChange4=(e)=>{
         console.log(e);
     }
+
     return(
         <main className="Content">
             <p onDoubleClick={handleChange2}>
                 Hello {name}!
             </p>
+
             <button onClick={handleChange2}>Click it</button>
+
             <button onClick={()=>handleChange3(handleNameChange())}>Change Name</button>
+
             <button onClick={(e)=>handleChange4(e)}>Click it</button>
         </main>
     )
