@@ -3,7 +3,7 @@ import './index.css';
 const Header2=()=>{
     return (
         <header>
-            PRACTICE LECTURE 2
+            <h1>PRACTICE LECTURE 2</h1>
         </header>)
 
 

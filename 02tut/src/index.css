@@ -84,7 +84,7 @@ ul li::before {
   cursor: pointer;
   margin-right: 0.5rem;
 }
-
+[cl]
 .item input[type="checkbox"]:focus + label {
   text-decoration: underline;
 }
