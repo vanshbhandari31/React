@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Footer2 = () => {
+const Footer2 = ({length}) => {
     return (
         <footer>
-            footer
+            <p>{length} List {length!==0 ? "items" : "your list is empty"} </p>
         </footer>
     )
 }

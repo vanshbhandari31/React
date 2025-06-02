@@ -1,11 +1,10 @@
 import './index.css';
 
-const Header2=()=>{
+const Header2 = ({title="default title"}) => {
     return (
         <header>
-            <h1>PRACTICE LECTURE 2</h1>
-        </header>)
-
-
-}
-export  default Header2;
+            <h1>{title}</h1>
+        </header>
+    );
+};
+export default Header2;
